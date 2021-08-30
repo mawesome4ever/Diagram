@@ -1,6 +1,6 @@
 [
 	{"id":1, "name":"Natural", "parent":null}, 
-	{"id":2, "name":"Teleporter","parent":1}, 
-	{"id":3, "name":"Iron", "parent":2}, 
-	{"id":4, "name":"Sulfur", "parent":2}
+	{"id":2, "name":"Iron", "parent":1}, 
+	{"id":3, "name":"Sulfur", "parent":1}
+	{"id":4, "name":"Teleporter","parent":[2,3]}, 
 ]
